@@ -10,6 +10,8 @@ import se.magnus.api.core.recommendation.Recommendation;
 import se.magnus.microservices.core.recommendation.persistence.RecommendationEntity;
 import se.magnus.microservices.core.recommendation.services.RecommendationMapper;
 
+
+
 class MapperTests {
 
   private RecommendationMapper mapper = Mappers.getMapper(RecommendationMapper.class);
